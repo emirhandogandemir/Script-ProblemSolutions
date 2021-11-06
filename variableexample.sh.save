@@ -1,0 +1,7 @@
+#!/bin/bash
+#Basit bir degisken öornegi
+#Emirhan  6/11/2021
+name='Emirhan'
+echo merhaba $name
+surname='Dogandemir'
+echo tekrardan merhaba $surname ailesinin veliaht $name
