@@ -1,0 +1,3 @@
+Kullanici dizini {/home/emirhan} altinda bulunan butun dosyalarin sadece isimlerini (gizli dosyalar dahil ) yine kullanici dizininde kullanici-dosyalari.txt isimli dosya icine kaydedecek ve dosya icindeki karakter ve satir sayisini gösterecek bash kodu 
+
+  ls -a > kullanici-dosyalari.txt && cat kullanici-dosyalari.txt | wc -c -l
