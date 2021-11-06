@@ -1,7 +1,0 @@
-if(($1>10))
-then
-echo "first argument bigger than 10"
-else
-then
-echo "first argument is not bigger than 10 "
-fi
