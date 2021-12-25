@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "ilk argüman : $1" 
+echo "ikinci argüman :" $2
+echo "`date` + aodnoa"
