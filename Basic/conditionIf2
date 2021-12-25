@@ -1,0 +1,9 @@
+#!/bin/bash
+examplefile=~/Desktop/omer.txt
+if [[ -e $examplefile ]] 
+then 
+echo "there is a omer txt in desktop"
+elif [[ -r $examplefile && -w $examplefile ]]
+then
+echo "$examplefile is writeable and readable "
+fi
