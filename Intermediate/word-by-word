@@ -1,0 +1,19 @@
+#!/bin/bash
+if [[ $# -le 0 ]]
+then
+   echo "You did not any files as arguments to the scripts."
+   echo "usage : $0 "my-file"
+   exit 
+fi
+
+file=$1
+
+if [[ ! -f "$file" ]]
+then
+   echo "File does not exist"
+fi
+
+for word in $(cat "${file}")
+do 
+   echo "$word"
+done
