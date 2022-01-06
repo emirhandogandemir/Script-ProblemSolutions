@@ -9,3 +9,9 @@ then
 else
    echo "sudo grubunda olan kullanıcı bulunmamaktadır"
 fi
+
+for sudouser in $(grep "sudo" /etc/group | cut -d ":" -f4)
+do
+account=$sudouser
+printf "$account\n"
+done 
